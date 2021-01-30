@@ -8,17 +8,17 @@ function CircleText() {
         <Typical
           steps={[
             "web developer",
-            1500,
+            2000,
             "software developer",
-            1500,
+            2000,
             "guitar player",
-            1500,
+            2000,
             "creative thinker",
-            1500,
+            2000,
             "programmer",
-            1500,
+            2000,
             "problem solver",
-            1500,
+            2000,
           ]}
           loop={Infinity}
           wrapper="b"

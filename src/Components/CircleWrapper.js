@@ -1,9 +1,9 @@
 import React from "react";
 import Circle from "./Circle.js";
 
-function Guts() {
+function CircleWrapper() {
   return (
-    <div className="relative grid grid-cols-8 w-full">
+    <div className="relative grid grid-cols-8 w-full mt-3">
       <div className="col-span-1"></div>
       <Circle />
       <div className="col-span-1"></div>
@@ -11,4 +11,4 @@ function Guts() {
   );
 }
 
-export default Guts;
+export default CircleWrapper;

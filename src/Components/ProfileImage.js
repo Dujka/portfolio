@@ -4,7 +4,7 @@ function ProfileImage() {
   return (
     <div>
       <img
-        className="absolute top-3 left-20 border-4 border-yellow-400 rounded-full w-1/5"
+        className="absolute top-0 left-0 shadow-2xl rounded-full w-1/3 sm:2/3"
         src="/Images/ProfileImage.jpg"
         alt="Profile Image"
       />

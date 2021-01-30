@@ -1,13 +1,15 @@
 import logo from "./logo.svg";
 import Header from "./Components/Header.js";
-import Guts from "./Components/Guts.js";
+import CircleWrapper from "./Components/CircleWrapper.js";
+import ConentWrapper from "./Components/ConentWrapper.js";
 import "./App.css";
 
 function App() {
   return (
     <div className="App min-h-screen">
       <Header />
-      <Guts />
+      <CircleWrapper />
+      <ConentWrapper />
     </div>
   );
 }
