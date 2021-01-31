@@ -2,7 +2,7 @@ import React from "react";
 import Typical from "react-typical";
 function CircleText() {
   return (
-    <div className="absolute w-full top-1/2 text-white font-mono lg:text-7xl md:text-5xl sm:text-3xl text-xl select-none">
+    <div className="absolute w-full mb-5 md:mb-10 bottom-1/4 text-white font-mono lg:text-7xl md:text-5xl sm:text-3xl text-xl select-none">
       Hi, I'm Alex and I am a
       <p className="">
         <Typical
