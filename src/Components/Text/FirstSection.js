@@ -18,6 +18,7 @@ function FirstSection() {
       <p className="pb-1">
         <b>Linkedin profile: </b>
         <a
+          rel="noreferrer"
           target="_blank"
           className="text-blue-600 hover:underline"
           href="https://www.linkedin.com/in/aleksandar-dujki%C4%87-a421151b6"
@@ -37,6 +38,7 @@ function FirstSection() {
       <p className="pb-1">
         <b>My CV in English: </b>
         <a
+          rel="noreferrer"
           target="_blank"
           className="text-blue-600 hover:underline"
           href="/CVs/AleksandarDujkicCV_EN.pdf"
@@ -47,6 +49,7 @@ function FirstSection() {
       <p className="pb-1">
         <b>My CV in Serbian: </b>
         <a
+          rel="noreferrer"
           target="_blank"
           className="text-blue-600 hover:underline"
           href="/CVs/AleksandarDujkićCV_SR.pdf"

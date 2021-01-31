@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Portfolio from "./Portfolio.js";
 import Nav from "./Nav.js";
 import { MenuProvider } from "./MenuContext.js";

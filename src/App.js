@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import Header from "./Components/Header.js";
 import CircleWrapper from "./Components/CircleWrapper.js";
 import ConentWrapper from "./Components/ConentWrapper.js";

@@ -9,19 +9,19 @@ function Footer() {
             <div class="flex flex-col">
               <span class="font-bold uppercase mb-2">Footer header 1</span>
               <span class="my-2">
-                <a href="#" class="text-blue-300  text-md hover:text-blue-200">
+                <button class="text-blue-300  text-md hover:text-blue-200">
                   link 1
-                </a>
+                </button>
               </span>
               <span class="my-2">
-                <a href="#" class="text-blue-300  text-md hover:text-blue-200">
+                <button class="text-blue-300  text-md hover:text-blue-200">
                   link 2
-                </a>
+                </button>
               </span>
               <span class="my-2">
-                <a href="#" class="text-blue-300  text-md hover:text-blue-200">
+                <button class="text-blue-300  text-md hover:text-blue-200">
                   link 3
-                </a>
+                </button>
               </span>
             </div>
             <div class="flex flex-col">
@@ -29,19 +29,19 @@ function Footer() {
                 Footer header 2
               </span>
               <span class="my-2">
-                <a href="#" class="text-blue-400 text-md hover:text-blue-300">
+                <button class="text-blue-400 text-md hover:text-blue-300">
                   link 1
-                </a>
+                </button>
               </span>
               <span class="my-2">
-                <a href="#" class="text-blue-300 text-md hover:text-blue-200">
+                <button class="text-blue-300 text-md hover:text-blue-200">
                   link 2
-                </a>
+                </button>
               </span>
               <span class="my-2">
-                <a href="#" class="text-blue-300 text-md hover:text-blue-2s00">
+                <button class="text-blue-300 text-md hover:text-blue-2s00">
                   link 3
-                </a>
+                </button>
               </span>
             </div>
             <div class="flex flex-col">
@@ -49,19 +49,19 @@ function Footer() {
                 Footer header 3
               </span>
               <span class="my-2">
-                <a href="#" class="text-blue-300  text-md hover:text-blue-200">
+                <button class="text-blue-300  text-md hover:text-blue-200">
                   link 1
-                </a>
+                </button>
               </span>
               <span class="my-2">
-                <a href="#" class="text-blue-300  text-md hover:text-blue-200">
+                <button class="text-blue-300  text-md hover:text-blue-200">
                   link 2
-                </a>
+                </button>
               </span>
               <span class="my-2">
-                <a href="#" class="text-blue-300  text-md hover:text-blue-200">
+                <button class="text-blue-300  text-md hover:text-blue-200">
                   link 3
-                </a>
+                </button>
               </span>
             </div>
           </div>
