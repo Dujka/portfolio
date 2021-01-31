@@ -15,12 +15,12 @@ function Footer() {
               </span>
               <span class="my-2">
                 <a href="#" class="text-blue-300  text-md hover:text-blue-200">
-                  link 1
+                  link 2
                 </a>
               </span>
               <span class="my-2">
                 <a href="#" class="text-blue-300  text-md hover:text-blue-200">
-                  link 1
+                  link 3
                 </a>
               </span>
             </div>
@@ -35,12 +35,12 @@ function Footer() {
               </span>
               <span class="my-2">
                 <a href="#" class="text-blue-300 text-md hover:text-blue-200">
-                  link 1
+                  link 2
                 </a>
               </span>
               <span class="my-2">
                 <a href="#" class="text-blue-300 text-md hover:text-blue-2s00">
-                  link 1
+                  link 3
                 </a>
               </span>
             </div>
@@ -55,12 +55,12 @@ function Footer() {
               </span>
               <span class="my-2">
                 <a href="#" class="text-blue-300  text-md hover:text-blue-200">
-                  link 1
+                  link 2
                 </a>
               </span>
               <span class="my-2">
                 <a href="#" class="text-blue-300  text-md hover:text-blue-200">
-                  link 1
+                  link 3
                 </a>
               </span>
             </div>
