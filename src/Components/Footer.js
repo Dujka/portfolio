@@ -23,7 +23,13 @@ function Footer() {
                 </a>
               </span>
               <span className="my-2">
-                <b>Phone number: </b>(+381) 638312360
+                <b>Phone number: </b>
+                <a
+                  className="text-blue-300 text-md hover:text-blue-200  hover:underline"
+                  href="sms:+381638312360"
+                >
+                  (+381) 638312360
+                </a>
               </span>
               <span className="my-2">
                 <b>Email: </b>

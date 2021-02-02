@@ -1,8 +1,10 @@
 import React from "react";
-import TextCell from "./TextCell";
+import TextCell from "./TextCell.js";
+import TextCellStretch from "./TextCellStretch.js";
 import FirstSection from "./Text/FirstSection.js";
 import SecondSection from "./Text/SecondSection.js";
 import ThirdSection from "./Text/ThirdSection.js";
+import FourthSection from "./Text/FourthSection.js";
 
 function ConentWrapper() {
   return (
@@ -16,6 +18,9 @@ function ConentWrapper() {
       <TextCell title={"EXPERIENCE"}>
         <ThirdSection />
       </TextCell>
+      <TextCellStretch title={"Dummy title"}>
+        <FourthSection />
+      </TextCellStretch>
     </div>
   );
 }
