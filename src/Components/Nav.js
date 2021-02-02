@@ -1,13 +1,16 @@
 import React, { useContext } from "react";
 import Menu from "./Menu.js";
 import { MenuContext } from "./MenuContext";
+import { useTransition, animated } from "react-spring";
 
 function Nav() {
   const [showMenu, setShowMenu] = useContext(MenuContext);
-  let menu;
-  if (showMenu) {
-    menu = <Menu />;
-  }
+  const transitions = useTransition(showMenu, null, {
+    from: { position: "absolute", opacity: 0 },
+    enter: { opacity: 1 },
+    leave: { opacity: 0 },
+  });
+
   return (
     <div className="cursor-pointer select-none z-10">
       <button
@@ -19,7 +22,14 @@ function Nav() {
         </svg>
       </button>
 
-      {menu}
+      {transitions.map(
+        ({ item, key, props }) =>
+          item && (
+            <animated.div key={key} style={props}>
+              <Menu />
+            </animated.div>
+          )
+      )}
     </div>
   );
 }
