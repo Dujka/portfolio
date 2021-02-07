@@ -5,7 +5,7 @@ function SecondSection() {
     <div>
       <p className="pb-1">
         <b>BACHELOR OF SCIENCE WITH HONOURS IN COMPUTER SCIENCE</b> – Faculty of
-        science, University of Kragujevac, ICT
+        Science, University of Kragujevac, Computer Science
       </p>
       <p className="pb-1">
         <br />

@@ -18,7 +18,7 @@ function ConentWrapper() {
       <TextCell title={"EXPERIENCE"}>
         <ThirdSection />
       </TextCell>
-      <TextCellStretch title={"Dummy title"}>
+      <TextCellStretch title={"Erasmus+ experience"}>
         <FourthSection />
       </TextCellStretch>
     </div>

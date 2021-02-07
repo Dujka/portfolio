@@ -4,6 +4,12 @@ function FirstSection() {
   return (
     <div>
       <p className="pb-1">
+        <b>Name: </b>Aleksandar Dujkić
+      </p>
+      <p className="pb-1">
+        <b>Birth year: </b>1997
+      </p>
+      <p className="pb-1">
         <b>My CV in English: </b>
         <a
           rel="noreferrer"
