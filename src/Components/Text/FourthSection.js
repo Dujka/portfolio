@@ -18,8 +18,10 @@ function FourthSection() {
         German education system is different than one in Serbia. For instance,
         at Otto-Friedrich University we had different pre-examination
         obligations. To be able to take final exam we had to do several
-        projects. I am happy that I had a chance to work with native Germans as
-        well as with international team.
+        projects. Project was realized as a group work where we had deadlines.
+        Groups were made out of 3 to 7 people depending on a project. I am happy
+        that I had a chance to work with native German team as well as with
+        international team.
       </p>
       <p>
         Also, there was cultural shock for some of international students (me
@@ -27,7 +29,7 @@ function FourthSection() {
         what I am used to. I got that impression that Germans are reserved,
         silent and not spontaneous. They will agree to participate in events,
         but it must be well organized. But most of us adapted to the environment
-        quickly
+        quickly.
       </p>
     </div>
   );

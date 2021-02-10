@@ -13,17 +13,17 @@ function Nav() {
     leave: { opacity: 0 },
   }); // Transition for the MenuMask
 
-  const menuContentTransition = useTransition(showMenu, null, {
-    from: { opacity: 0 },
-    enter: { opacity: 1 },
-    leave: { opacity: 0 },
-  }); // Transition for the MenuContent
-
   // const menuContentTransition = useTransition(showMenu, null, {
-  //   from: { opacity: 0, transform: "translateX(-100%)" },
-  //   enter: { opacity: 1, transform: "translateX(0%)" },
-  //   leave: { opacity: 0, transform: "translateX(-100%)" },
+  //   from: { opacity: 0 },
+  //   enter: { opacity: 1 },
+  //   leave: { opacity: 0 },
   // }); // Transition for the MenuContent
+
+  const menuContentTransition = useTransition(showMenu, null, {
+    from: { opacity: 0, transform: "translateX(-100%)" },
+    enter: { opacity: 1, transform: "translateX(0%)" },
+    leave: { opacity: 0, transform: "translateX(-100%)" },
+  }); // Transition for the MenuContent
 
   return (
     <div className="cursor-pointer select-none z-10">
@@ -47,7 +47,11 @@ function Nav() {
       {menuContentTransition.map(
         ({ item, key, props }) =>
           item && (
-            <animated.div key={key} style={props}>
+            <animated.div
+              key={key}
+              style={props}
+              className="bg-white cursor-default w-4/5 shadow h-full fixed left-0 top-0"
+            >
               <MenuContent />
             </animated.div>
           )
