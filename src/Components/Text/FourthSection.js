@@ -29,7 +29,8 @@ function FourthSection() {
         what I am used to. I got that impression that Germans are reserved,
         silent and not spontaneous. They will agree to participate in events,
         but it must be well organized. But most of us adapted to the environment
-        quickly.
+        quickly. Briefly to conclude, this is a great experience that helped me
+        develop my skills as well as ability to adapt to the new environment.
       </p>
     </div>
   );
