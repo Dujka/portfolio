@@ -130,6 +130,7 @@ function Footer() {
               </span>
               <span className="my-2">
                 <b>Finished: </b>
+                <br />
                 <a
                   className="text-blue-300 text-md hover:text-blue-200  hover:underline"
                   rel="noreferrer"
@@ -138,9 +139,19 @@ function Footer() {
                 >
                   Security and Privacy on the Internet
                 </a>
+                <br />
+                <a
+                  className="text-blue-300 text-md hover:text-blue-200  hover:underline"
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://react-tic-tac-toe-47d64.web.app/"
+                >
+                  Tic tac toe
+                </a>
               </span>
               <span className="my-2">
                 <b>Work in progress: </b>
+                <br />
                 <a
                   className="text-blue-300 text-md hover:text-blue-200  hover:underline"
                   rel="noreferrer"

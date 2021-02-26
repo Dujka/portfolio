@@ -3,9 +3,12 @@ import React from "react";
 function MenuContent() {
   return (
     <div>
-      <p>My web projects</p>
+      <h1>
+        <b>My web projects</b>
+      </h1>
       <p>
-        Finished:{" "}
+        Finished:
+        <br />
         <a
           className="text-blue-700 text-md hover:text-blue-600  hover:underline"
           rel="noreferrer"
@@ -14,9 +17,19 @@ function MenuContent() {
         >
           Security and Privacy on the Internet
         </a>
+        <br />
+        <a
+          className="text-blue-700 text-md hover:text-blue-600  hover:underline"
+          rel="noreferrer"
+          target="_blank"
+          href="https://react-tic-tac-toe-47d64.web.app/"
+        >
+          Tic tac toe
+        </a>
       </p>
       <p>
-        Work in progres:{" "}
+        Work in progres:
+        <br />
         <a
           className="text-blue-700 text-md hover:text-blue-600  hover:underline"
           rel="noreferrer"
